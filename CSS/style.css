@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles  */
+header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* overflow: hidden; */
+  background-image: url(../images/bg.jpg);
+}
+
+.headerLayer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background-color: rgb(128, 128, 128, 0.2);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 12%;
+  /* padding: 0px 20px; */
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+#logo {
+  width: 200px;
+  height: 70%;
+  align-items: center;
+  /* padding-left: 2%; */
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.logoImg {
+  width: 100%;
+  height: 100%;
+}
+
+#navLinks {
+  list-style-type: none;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: yellow; */
+}
+
+#navLinks a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#introPage {
+  width: 47%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  /* background-color: orange; */
+}
+
+.welcomeTxt {
+  color: white;
+  font-size: 21px;
+  line-height: 1.6;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+span {
+  font-size: 95px;
+  font-family: "Alegreya", serif;
+}
+
+.buttonsContainer {
+  width: 45%;
+  height: 20%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+
+button {
+  color: white;
+  width: 47%;
+  height: 100%;
+  font-size: 17px;
+  /* padding: 2%; */
+  border-radius: 5px;
+  border: none;
+  background-color: #8e7754;
+}
+
+#contactUsBtn {
+  background-color: transparent;
+  border: 2px white solid;
+}
+
+/* About Page & Location Page Styles  */
+.aboutPageContainer {
+  width: 100%;
+  height: 600px;
+  padding: 2.5% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: purple; */
+}
+
+.imgSection {
+  width: 45%;
+  height: 100%;
+}
+
+.aboutImg {
+  width: 100%;
+  height: 100%;
+}
+
+.dicripSection {
+  width: 44%;
+  height: 95%;
+  /* background-color: aqua; */
+}
+
+.pageTitle {
+  height: 15%;
+  font-size: 40px;
+  font-family: "Alegreya", serif;
+  /* background-color: tomato; */
+}
+
+.discripTxt {
+  height: 31%;
+  color: rgb(83, 81, 81);
+  font-size: 18px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  line-height: 2.3;
+  font-family: "Libre Franklin", sans-serif;
+  /* background-color: lightsalmon; */
+}
+
+.prosList {
+  width: 100%;
+  height: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: gray; */
+}
+
+.prosItem {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+
+.iconContainer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  border-radius: 50%;
+  color: #8e7754;
+  justify-content: center;
+  border: 1px rgb(191, 189, 189) solid;
+  /* background-color: red; */
+}
+
+.prosDiscripContainer {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+/* Catigories Page Styles  */
+.catPageContainer {
+  width: 100%;
+  height: 700px;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: yellow; */
+}
+
+.catPageTitle {
+  height: 10%;
+  font-size: 38px;
+  font-family: "Alegreya", serif;
+  /* background-color: bisque; */
+}
+
+.catPageCaption {
+  font-size: 17px;
+  color: rgb(83, 81, 81);
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.catSections {
+  width: 95%;
+  height: 85%;
+  padding-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* background-color: orangered; */
+}
+
+.catItem {
+  width: 30%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  /* background-color: green; */
+}
+
+.catImg {
+  width: 90%;
+  height: 60%;
+}
+
+.catName {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Alegreya", serif;
+  /* background-color: aquamarine; */
+}
+
+.catCaption {
+  height: 20%;
+  font-size: 17px;
+  line-height: 1.8;
+  font-family: "Libre Franklin", sans-serif;
+  /* background-color: palegreen; */
+}
+
+/* Summery Page Styles */
+.sumPageContainer {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  padding: 2.5% 0%;
+  justify-content: space-evenly;
+  background-color: #403d38;
+}
+
+.colOfPage {
+  width: 22%;
+  height: 80%;
+  /* background-color: cadetblue; */
+}
+
+.colTitle {
+  height: 15%;
+  color: white;
+  font-size: 25px;
+  font-family: "Alegreya", serif;
+  /* background-color: blue; */
+}
+
+.col1Contain {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: olivedrab; */
+}
+
+.col1Caption {
+  color: #969696;
+  font-size: 17px;
+  line-height: 1.8;
+  padding-bottom: 8%;
+  font-family: "Libre Franklin", sans-serif;
+  /* background-color: black; */
+}
+
+.rowItemContainer {
+  color: #969696;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 2px #504d47 solid;
+  /* background-color: red; */
+}
+
+li {
+  font-size: 17px;
+  padding-left: 2%;
+  list-style-type: none;
+  font-family: "Libre Franklin", sans-serif;
+  /* background-color: yellowgreen; */
+}
+
+/* Footer Styles  */
+.footerContainer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5% 0%;
+  justify-content: space-around;
+  background-color: #353330;
+}
+
+.allRights {
+  color: #969696;
+  font-size: 15px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.socialIconsContainer {
+  width: 18%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: plum; */
+}
+
+.socialIcon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: #8c8a85;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: #484540;
+}

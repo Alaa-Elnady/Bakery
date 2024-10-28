@@ -26,37 +26,36 @@
   </head>
 
   <body>
-    <!-- Header Page  -->
+    <!-- Home Page  -->
     <header>
-      <div class="headerLayer">
+      <div class="homeLayer">
         <!-- Navbare -->
-        <nav>
-          <div id="logo">
+        <nav id="navbare">
+          <div id="Logo">
             <a href="index.html">
-              <img src="images/logo.png" class="logoImg" />
+              <img src="./images/logo.png" class="imgStyle" />
             </a>
           </div>
-          <ul id="navLinks">
-            <li><a href="#introPage">Home</a></li>
-            <li><a href="#aboutPage">About</a></li>
-            <li><a href="#ourOffersPage">Our Offers</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+          <div id="navLinksContainer">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Location</a>
+            <a href="#">Offers</a>
+            <a href="#">Contact</a>
+          </div>
         </nav>
 
-        <div id="introPage">
-          <p class="welcomeTxt">
+        <div id="headerContainer">
+          <p class="headerTxtStyle">
             Welcome to <br />
-            <span>Family Bakery</span> <br />
+            <span class="bakeryNameStyle">Family Bakery</span> <br />
             We're the biggest, best equipped and most advanced Bakery in the
             greater Los Angles area
           </p>
 
-          <div class="buttonsContainer">
-            <button>Learn More</button>
-            <button id="contactUsBtn">Contact us</button>
+          <div id="headerBtnsContainer">
+            <div class="btn learnMore"><a href="#">Learn More</a></div>
+            <div class="btn contactUs"><a href="#">Contact Us</a></div>
           </div>
         </div>
       </div>

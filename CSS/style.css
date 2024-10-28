@@ -3,8 +3,25 @@
   padding: 0;
 }
 
-/* Header Styles  */
+html {
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.imgStyle {
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+  MARK: Header
+*/
 header {
+  color: white;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -13,108 +30,107 @@ header {
   background-image: url(../images/bg.jpg);
 }
 
-.headerLayer {
+.homeLayer {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  /* justify-content: space-between; */
-  background-color: rgb(128, 128, 128, 0.2);
-}
-
-nav {
-  width: 100%;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 12%;
-  /* padding: 0px 20px; */
-  overflow: hidden;
-  /* background-color: red; */
+  justify-content: space-between;
+  background-color: rgba(78, 78, 78, 0.2);
 }
 
-#logo {
+#navbare {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #bb3; */
+}
+
+#Logo {
   width: 200px;
-  height: 70%;
-  align-items: center;
-  /* padding-left: 2%; */
-  justify-content: center;
-  /* background-color: blue; */
-}
-
-.logoImg {
-  width: 100%;
-  height: 100%;
-}
-
-#navLinks {
-  list-style-type: none;
-  width: 60%;
-  height: 100%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%;
+  /* background-color: #f5f; */
+}
+
+#navLinksContainer {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  /* background-color: yellow; */
+  padding: 0px 20px;
+  /* background-color: #c22; */
 }
 
-#navLinks a {
+#navLinksContainer a {
   color: white;
   font-size: 20px;
   text-decoration: none;
 }
 
-#introPage {
-  width: 47%;
-  height: 50%;
+#headerContainer {
+  min-width: 45%;
+  max-width: 49%;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-evenly;
   text-align: center;
-  margin-top: 8%;
-  /* background-color: orange; */
+  /* background-color: #76a; */
 }
 
-.welcomeTxt {
-  color: white;
+.headerTxtStyle {
   font-size: 21px;
   line-height: 1.6;
   font-family: "Libre Franklin", sans-serif;
 }
 
-span {
-  font-size: 95px;
+.bakeryNameStyle {
+  font-size: 5rem;
   font-family: "Alegreya", serif;
 }
 
-.buttonsContainer {
-  width: 45%;
-  height: 20%;
+#headerBtnsContainer {
+  min-width: 300px;
+  max-width: 400px;
+  height: 13%;
+  font-size: 17px;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  /* background-color: green; */
+  justify-content: space-evenly;
+  /* background-color: #5cc; */
 }
 
-button {
-  color: white;
-  width: 47%;
-  height: 100%;
-  font-size: 17px;
-  /* padding: 2%; */
-  border-radius: 5px;
-  border: none;
+.btn {
+  width: 130px;
+  /* width: 40%; */
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+.learnMore {
+  border-color: #8e7754;
   background-color: #8e7754;
 }
 
-#contactUsBtn {
-  background-color: transparent;
-  border: 2px white solid;
-}
-
-/* About Page & Location Page Styles  */
+/* 
+  MARK: About
+*/
 .aboutPageContainer {
   width: 100%;
   height: 600px;

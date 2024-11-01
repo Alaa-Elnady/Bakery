@@ -133,52 +133,55 @@ header {
 */
 .aboutPageContainer {
   width: 100%;
-  height: 600px;
+  height: 80vh;
   padding: 2.5% 0%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* background-color: purple; */
+  /* background-color: rgb(196, 107, 196); */
 }
 
 .imgSection {
   width: 45%;
   height: 100%;
-}
-
-.aboutImg {
-  width: 100%;
-  height: 100%;
+  background-color: #c93;
 }
 
 .dicripSection {
   width: 44%;
-  height: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   /* background-color: aqua; */
 }
 
 .pageTitle {
-  height: 15%;
+  /* height: 15%; */
   font-size: 40px;
+  align-self: flex-start;
   font-family: "Alegreya", serif;
   /* background-color: tomato; */
 }
 
 .discripTxt {
-  height: 31%;
+  min-height: 30%;
+  max-height: 55%;
   color: rgb(83, 81, 81);
   font-size: 18px;
   text-align: left;
   display: flex;
   align-items: center;
-  line-height: 2.3;
+  line-height: 1.8;
+  overflow: hidden;
   font-family: "Libre Franklin", sans-serif;
   /* background-color: lightsalmon; */
 }
 
 .prosList {
   width: 100%;
-  height: 54%;
+  height: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -186,18 +189,27 @@ header {
 }
 
 .prosItem {
-  width: 60%;
-  height: 20%;
+  width: 100%;
+  height: 28%;
+  margin-bottom: 2%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   /* background-color: pink; */
 }
 
 .iconContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+}
+
+.iconCircle {
   width: 50px;
-  height: 50px;
+  height: 100%;
   display: flex;
   font-size: 25px;
   align-items: center;
@@ -209,11 +221,20 @@ header {
 }
 
 .prosDiscripContainer {
-  width: 85%;
+  width: 90%;
   height: 100%;
   display: flex;
   align-items: center;
   /* background-color: blue; */
+}
+
+.prosTxt {
+  margin-left: 2%;
+  font-size: 18px;
+  line-height: 1;
+  color: rgb(83, 81, 81);
+  font-family: "Libre Franklin", sans-serif;
+  /* background-color: burlywood; */
 }
 
 /* Catigories Page Styles  */
